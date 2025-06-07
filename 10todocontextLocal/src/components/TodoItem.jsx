@@ -1,7 +1,7 @@
 import React from 'react'
-import { TodoContext } from "../context/TodoContext";
+import { TodoContext } from "../context/ToDoContext";
 import { useState } from "react";
-import useTodo from "../context/TodoContext";
+import useTodo from "../context/ToDoContext";
 
 
 
