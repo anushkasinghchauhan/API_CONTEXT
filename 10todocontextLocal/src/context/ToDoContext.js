@@ -3,7 +3,7 @@ import React from 'react';
 
 
 
-export const TodoContext = createContext({
+export const ToDoContext = createContext({
     todos: [
         {
             id: 1,
@@ -17,10 +17,10 @@ export const TodoContext = createContext({
     toggleComplete: (id) => {},
 });
 
-export const ToDoProvider = TodoContext.Provider;
+export const ToDoProvider = ToDoContext.Provider;
 
 
 
 export default function useTodo() {
-    return useContext(TodoContext);
+    return useContext(ToDoContext);
 }
